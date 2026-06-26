@@ -1,0 +1,26 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  post: CollectionEntry<'posts'>;
+}
+
+const { post } = Astro.props;
+const archiveUrl = `/posts/${post.id}`;
+---
+<li class="article">
+  <p class="article-pub">{post.data.publication}</p>
+  <h3 class="article-title">
+    <a href={post.data.url ?? archiveUrl}
+       target={post.data.url ? "_blank" : undefined}
+       rel={post.data.url ? "noopener noreferrer" : undefined}>
+      {post.data.title}
+    </a>
+  </h3>
+  <div class="version-links">
+    {post.data.url && (
+      <a href={post.data.url} target="_blank" rel="noopener noreferrer">↳ published version</a>
+    )}
+    <a href={archiveUrl}>↳ archived version</a>
+  </div>
+</li>

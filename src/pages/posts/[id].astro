@@ -1,0 +1,30 @@
+---
+import { getCollection, render } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import MenuBar from '../../components/MenuBar.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts');
+  return posts.map((post) => ({
+    params: { id: post.id },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+---
+<Layout title={post.data.title}>
+  <div class="terminal">
+    <MenuBar />
+    <div class="terminal-body">
+      {post.data.url && (
+        <p class="archive-note">
+          Archived copy. <a href={post.data.url} target="_blank" rel="noopener noreferrer">Read the published version on {post.data.publication} →</a>
+        </p>
+        <p>&nbsp;</p>
+      )}
+      <Content />
+    </div>
+  </div>  
+</Layout>

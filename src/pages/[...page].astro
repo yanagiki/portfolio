@@ -1,0 +1,46 @@
+---
+	import type { GetStaticPathsOptions, Page } from 'astro';
+  import type { CollectionEntry } from 'astro:content';
+  import { getCollection } from 'astro:content';
+	import Layout from '../layouts/Layout.astro';
+  import MenuBar from '../components/MenuBar.astro';
+	import PostCard from '../components/PostCard.astro';
+
+  export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
+	const posts = (await getCollection('posts')).sort(
+  		(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+	);
+  return paginate(posts, { pageSize: 10 });
+}
+
+interface Props {
+  page: Page<CollectionEntry<'posts'>>;
+}
+
+const { page } = Astro.props;
+---
+
+<Layout title="willow roberts">
+  <div class="terminal">
+    <MenuBar />
+    <div class="terminal-body">
+      <h4>Well-researched and carefully written content on a range of topics.</h4>
+      <hr>
+      <h5>about me</h5>
+      <img src="/images/profile-pic-normal.jpg" alt="head shot of Willow Roberts" width="100" class="profile-pic">
+      <h6>I’m a freelance writer originally from the UK and based in Denmark. I create fluid and engaging copy with a focus on crafting clear and approachable explanations of complex concepts — but I can write fun stuff too.</h6>
+      <h6><a href="/resume">↳ resume</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/contact">↳ contact</a></h6>
+      <hr>
+      <h2 class="section-title">featured articles</h2>
+      <ul class="article-list">
+        {page.data.map((post) => <PostCard post={post} />)}
+      </ul>
+    </div>
+  </div>
+
+  <nav class="pagination">
+    {page.url.prev ? <a href={page.url.prev}>← newer</a> : <span class="disabled">← newer</span>}
+    <span>page {page.currentPage} of {page.lastPage}</span>
+    {page.url.next ? <a href={page.url.next}>older →</a> : <span class="disabled">older →</span>}
+  </nav>
+</Layout>
