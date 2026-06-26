@@ -186,3 +186,7 @@ body {
   color: var(--fg-mute);
   text-decoration: none;
 }
+
+.contact-email {
+  overflow-wrap: break-word;
+}
