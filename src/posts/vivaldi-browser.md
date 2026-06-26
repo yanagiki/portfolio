@@ -6,7 +6,7 @@ url: "https://www.digitaltrends.com/computing/i-ditched-chrome-for-the-vivaldi-b
 ---
 
 # I ditched Chrome for the Vivaldi browser, and it’s awesome
-<img src="../images/hero-vivaldi.webp" alt="screenshot of the Vivaldi hompage in the Vivaldi broswer">
+<img src="/images/hero-vivaldi.webp" alt="screenshot of the Vivaldi hompage in the Vivaldi broswer">
 
 My primary PCs have been [MacBook Airs](https://www.digitaltrends.com/computing/apple-macbook-air-m2-review/) for nearly a decade now, and for most of that time, I’ve used a mix of Safari and Google Chrome as my browsers. I then had a brief stint with Mozilla Firefox, but its performance was pretty disappointing. Now, I’m using the Vivaldi browser and I’m pretty sure I’ve found the one.
 
@@ -31,7 +31,7 @@ Tab tiling, tab stacking, web panels, and workspaces. All four of these features
 Either way, I downloaded Vivaldi and now I am using all of these features every day.
 
 ### Workspaces
-<img src="../images/workspaces-vivaldi.webp" alt="screenshot of the Workspaces feature in action">
+<img src="/images/workspaces-vivaldi.webp" alt="screenshot of the Workspaces feature in action">
 
 Workspaces are a little bit like the Tab Groups feature Safari has nowadays, but way more useful in my opinion.
 
@@ -40,7 +40,7 @@ If you’re in a position where you want to declutter your tabs but you’d also
 I have a few different Workspaces based on the different types of work I do, and an obligatory “Fun” Workspace as well. It really beats opening new window after new window and keeping them all open until I need them again. To be fair, that probably wasn’t the best way to do things in Safari or Chrome either — but if there was something better, it wasn’t right in my face and super easy to use like Workspaces are.
 
 ### Tab stacking
-<img src="../images/tab-stacking-vivaldi.webp" alt="screenshot of the tab stacking feature in action">
+<img src="/images/tab-stacking-vivaldi.webp" alt="screenshot of the tab stacking feature in action">
 
 Tab stacking is also really useful if you end up with a bunch of tabs with clear categories to them. For instance, when I’m doing research it tends to lead down rabbit holes, so it’s super useful to turn each rabbit hole into a tab stack, allowing me to keep my tab bar tidier and simply click on the source tab to see everything related to it.
 
@@ -49,14 +49,14 @@ I extended the size of my tab bar for the screenshot but you can shrink it way d
 But if it’s not your thing, you can just choose to have your tab bar on top, the bottom, or the left instead. Isn’t customization great?
 
 ### Tab tiling
-<img src="../images/tab-tiling-vivaldi.webp" alt="screenshot of the tab tiling feature in action">
+<img src="/images/tab-tiling-vivaldi.webp" alt="screenshot of the tab tiling feature in action">
 
 If you want to see more than one tab at the same time, tab tiling is amazing. You can squeeze up to four tabs in the same window, which is great when you’re working with information from multiple different places and don’t want to keep switching between tabs.
 
 On a laptop, in a window with four tabs tiled, things obviously get pretty small — probably too small for some people — but when you’re using a monitor there’s plenty of space to see everything.
 
 ### Web panels
-<img src="../images/web-panel-vivaldi.webp" alt="screenshot of the Web panels feature in action">
+<img src="/images/web-panel-vivaldi.webp" alt="screenshot of the Web panels feature in action">
 
 When tabs are tiled they essentially become one tab, so when you click on something different, the tiled group disappears and is replaced with a normal full-window version of whatever you clicked on.
 
@@ -67,7 +67,7 @@ Since you can use this feature even when you have four tabs tiled, it means you 
 ## Vivaldi’s next-level customization
 The last great thing about Vivaldi is the level of customization it provides. If you don’t think you’ll need the web panel feature, you don’t need to have the bar showing. You choose where your tabs go. You can hide just about all UI in the window if you’re into minimalism. You can choose from a ton of themes or even make your own.
 
-<img src="../images/tab-settings-vivaldi.webp" alt="screenshot of the tab settings window in Vivaldi">
+<img src="/images/tab-settings-vivaldi.webp" alt="screenshot of the tab settings window in Vivaldi">
 
 Just look at how many settings are available for tabs. It can look overwhelming, but it’s actually quite fun to read through these and realize just how many make you think “Wow, that would be super useful.”
 

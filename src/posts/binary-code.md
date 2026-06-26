@@ -11,7 +11,7 @@ If you don't already know how computers work, it may seem like an unapproachable
 Binary code is the perfect place to start — it's conceptually simple but practically complex, and to computers, it's everything. Binary is the power behind the 4K YouTube video you're watching, the smartphone in your pocket, the servers keeping the internet on, and banking software ensuring your money is secure. So, let's look at exactly what binary is, what they do with it, and why it's so important.
 
 ## What is binary?
-<img src="../images/binary-eggs.webp" alt="graphic showing different counting systems with eggs"><br>
+<img src="/images/binary-eggs.webp" alt="graphic showing different counting systems with eggs"><br>
 
 The first thing to know about binary is that it's a counting system. Just like we use the symbols 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9 to express all the numbers in existence, the binary counting system uses zeros and ones to express these same numbers. Our usual system is called decimal, or base 10, and counts in chunks of 10. The binary system, also known as base two, counts in chunks of two. As an example, let's count this collection of asterisks:
 
@@ -24,7 +24,7 @@ So, if they're doing the exact same job, then what is the point of having two di
 If we had six fingers, we'd have unique symbols for 0 to 5, and then add a 1 to the front and cycle back through. In other words, in base six, "10" would equate to our number six.
 
 ## Who would choose to count in binary?
-<img src="../images/turtle-counting.webp" alt="photo of a sea turtle with its flippers labelled in binary"><br>
+<img src="/images/turtle-counting.webp" alt="photo of a sea turtle with its flippers labelled in binary"><br>
 
 
 So, if humans chose base 10 to count in because they have 10 fingers, who would choose to count in base two? Perhaps a turtle because they only have two fingerless flippers. Or a penguin because they only have two fingerless wings. Or a computer, because the teeny tiny components that make up a computer only have two states — on (1) or off (0).
@@ -66,7 +66,7 @@ Character encoding systems are limited by the number of bits they use — i.e., 
 This kind of coding system isn't new, by the way — braille and Morse code are binary, too. Braille dots are either raised or flat, and Morse code is dots or dashes.
 
 ## Do programmers write binary code? (Spoiler: nope)
-<img src="../images/language-comp.webp" alt="side-by-side screenshots showing C++ and assembly"><br>
+<img src="/images/language-comp.webp" alt="side-by-side screenshots showing C++ and assembly"><br>
 
 
 Earlier, it was mentioned that humans can't keep track of the billions of operations happening inside a computer — but if so, how do programmers do it? The answer is, of course, they don't. They don't need to know which gates are producing which outputs or what number 1010000110101010 is in decimal because all of that is happening many layers below the programmer's domain.

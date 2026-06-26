@@ -7,7 +7,7 @@ url: "https://www.digitaltrends.com/computing/i-tried-using-a-paid-search-engine
 
 # I tried using a paid search engine for a week, and I don’t think I’ll go back
 <figure>
-  <img src="../images/kagi-home.webp" alt="screenshot of the kagi homepage">
+  <img src="/images/kagi-home.webp" alt="screenshot of the kagi homepage">
 </figure>
 
 After making the decision to ditch Google Search a few months ago, I’ve been making it a point to keep an eye out for new products to try. Amusingly, it took me quite a while to realize there are actually paid search engines out there, but once I knew about them, I was instantly interested.
@@ -18,7 +18,7 @@ I decided to try one out for just a week to see how it felt — I had already im
 The search engine I decided to try is called Kagi, a Public Benefit Corporation based in the United States. Its sales pitch is pretty straightforward: instead of letting Google slurp up all of your data and give you useless results, simply pay a subscription to get the results you want. Here’s that pitch in the company’s own words:
 
 <figure>
-  <img src="../images/kagi-sales-pitch.webp" alt="infographic comparing free and paid search engines">
+  <img src="/images/kagi-sales-pitch.webp" alt="infographic comparing free and paid search engines">
   <figcaption><a href="https://help.kagi.com/kagi/why-kagi/why-pay-for-search.html">Kagi</a></figcaption>
 </figure>
 
@@ -33,7 +33,7 @@ While there is an entire money-making ecosystem of paid search results, ads, sea
 This difference in approach isn’t just good for your privacy, however. Whenever you search for something with Google, its priority is to show you a ton of stuff that will help it and its advertising partners make money. When you search for something with Kagi, the priority is to provide the service you’ve already paid for — in other words, getting you the best results for your query. It has a whole bunch of features to help with this, so let me show you a few of the ones I like best.
 
 ## Kagi Lenses
-<img src="../images/kagi-lenses.webp" alt="screenshot of the Kagi lenses feature">
+<img src="/images/kagi-lenses.webp" alt="screenshot of the Kagi lenses feature">
 
 “Lenses” is a feature that helps you customize your searches by choosing what kind of results you want to see. There are a few premade ones — for example, you can choose to only see results from online discussions and forums, or you can choose to only see PDF files.
 
@@ -43,7 +43,7 @@ If you’re sick of seeing results that don’t match the region you’re in, yo
 
 Your Lenses live in a little drop-down box beneath the search bar, just select the one you want to use and then search as normal. Once you’ve selected a Lens, you can use the toggle beside it to turn it on or off without opening the dropdown again. There’s also a manual region selector under the search bar, so you can adjust the region of individual searches at any time. If you’re an advanced searcher, there’s a whole advanced search menu for you to use as well.
 
-<img src="../images/advanced-search-kagi.webp" alt="screenshot showing the Kagi advanced search panel">
+<img src="/images/advanced-search-kagi.webp" alt="screenshot showing the Kagi advanced search panel">
 
 And just to point out — if you’re using Google, you have to enter the Advanced Settings menu if you want to change the region of your searches, and it doesn’t have a search bar, so you have to scroll all the way to the bottom for the U.K. or the U.S. And honestly, the region-based search feature doesn’t seem to work that well on Google anyway.
 
@@ -56,7 +56,7 @@ You can also personalize your search experience as you go by clicking the little
 
 At the top of the popup, you’ll see a “ranking adjustment” section where you can adjust how Kagi will treat this website from now on. You can lower its ranking, raise its ranking, block it, or pin it. Pinning it will make sure any relevant hits from this website go right to the top of the results page. By default, the ranking will be “normal,” and you can leave it there or adjust it back to normal at any time as well.
 
-<img src="../images/kagi-personalization.webp" alt="screenshot showing Kagi personalization options">
+<img src="/images/kagi-personalization.webp" alt="screenshot showing Kagi personalization options">
 
 You might notice that Kagi often shows much fewer search results than Google (the Nintendo search in the screenshot above only has 39 results for example.) Because it’s striving for relevance, Kagi generally doesn’t bother bringing up thousands of search results that you don’t need — we all know most people don’t go past the first page anyway.
 
@@ -77,7 +77,7 @@ As you might guess from the name, it’s an AI-powered assistant you can chat wi
 
 You can also choose to connect the model to the web and combine it with Kagi Search to do your searching right in the chat interface. Whenever it answers, it will link the sites it got its information from so you can fact-check it.
 
-<img src="../images/kagi-assistant-search.webp" alt="screenshot showing a response from the Kagi AI assistant">
+<img src="/images/kagi-assistant-search.webp" alt="screenshot showing a response from the Kagi AI assistant">
 
 If you don’t have much experience with AI-powered searches, they can be quite useful in the right context. The other day, I randomly needed to know the elevation of a certain hotel on Mount Teide in Tenerife. I tried to search for the answer normally and failed, and then I remembered to test out Kagi Assistant. I asked it the question and I got the answer right away, along with a link to where it got the information. It was quick, easy, and accurate — everything it aims to be. I don’t think every query would go that smoothly, but it can certainly be helpful if you use it the right way. You can even use your Kagi Lenses while searching via Assistant.
 
@@ -88,7 +88,7 @@ With a service like Kagi, the features are frankly only as compelling as their p
 
 If you use computers at work and search a lot, you can bump your searches up to unlimited for $10 plus tax. If you’re not sure how often you search, just try the $5 plan first and upgrade if you need it.
 
-<img src="../images/kagi-prices.webp" alt="screenshot showing Kagi pricing plans">
+<img src="/images/kagi-prices.webp" alt="screenshot showing Kagi pricing plans">
 
 The Ultimate plan is really just for ultra AI enthusiasts. You get unlimited searches and you also get access to premium AI models for Assistant. This includes top-of-the-line reasoning models like Anthropic’s Claude 3.7 Sonnet, GPT 4o, or Gemini 2.5 Pro. If you already use these or you know you’re interested in them — you can consider the Ultimate plan (it costs $25 a month).
 

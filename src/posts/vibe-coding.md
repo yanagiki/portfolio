@@ -9,7 +9,7 @@ url: "https://www.digitaltrends.com/computing/what-is-vibe-coding-and-is-it-usef
 We all know programmers are using AI tools to supplement their work, but there’s a new trend in town taking things to the next level. The term “vibe coding” was coined by OpenAI co-founder Andrej Karpathy just last month, but what started as a [random X post](https://x.com/karpathy/status/1886192184808149383) has quickly spiraled into a whole new community.
 
 <figure>
-  <img src="../images/karpathy-tweet.webp" alt="screenshot of a tweet from @karpathy">
+  <img src="/images/karpathy-tweet.webp" alt="screenshot of a tweet from @karpathy">
   <figcaption>The original "vibe coding" post, via <a href="https://x.com/karpathy/status/1886192184808149383">@karpathy</a></figcaption>
 </figure>
 
@@ -48,17 +48,17 @@ But if you want to release your project to the public and charge people money to
 If you need a real-life cautionary tale — [@leojr94](https://x.com/leojr94_) on X has everything you need. Here is his story condensed into three X posts:
 
 <figure>
-  <img src="../images/leo-tweet-1.webp" alt="screenshot of a tweet from @leojr94">
+  <img src="/images/leo-tweet-1.webp" alt="screenshot of a tweet from @leojr94">
   <figcaption>Post 1, via <a href="https://x.com/leojr94_">@leojr94</a></figcaption>
 </figure>
 <p>&nbsp;</p>
 <figure>
-  <img src="../images/leo-tweet-2.webp" alt="screenshot of a tweet from @leojr94">
+  <img src="/images/leo-tweet-2.webp" alt="screenshot of a tweet from @leojr94">
   <figcaption>Post 2, via <a href="https://x.com/leojr94_">@leojr94</a></figcaption>
 </figure>
 <p>&nbsp;</p>
 <figure>
-  <img src="../images/leo-tweet-3.webp" alt="screenshot of a tweet from @leojr94">
+  <img src="/images/leo-tweet-3.webp" alt="screenshot of a tweet from @leojr94">
   <figcaption>Post 3, via <a href="https://x.com/leojr94_">@leojr94</a></figcaption>
 </figure>
 
